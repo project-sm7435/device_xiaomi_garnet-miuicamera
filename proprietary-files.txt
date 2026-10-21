@@ -9,3 +9,8 @@ system_ext/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:system/lib64/vendor.x
 # MiScanner
 product/priv-app/MiuiScanner/MiuiScanner.apk:system/priv-app/MiuiScanner/MiuiScanner.apk
 
+# MiGallery
+product/priv-app/MiuiGallery/MiuiGallery.apk:system/priv-app/MiuiGallery/MiuiGallery.apk
+
+# MiuiEditor
+product/priv-app/MiuiEditor/MiuiEditor.apk:system/priv-app/MiuiEditor/MiuiEditor.apk

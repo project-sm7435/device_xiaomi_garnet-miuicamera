@@ -18,7 +18,9 @@ PRODUCT_COPY_FILES += \
 # Priv-app permission
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml \
-    $(LOCAL_PATH)/configs/privapp-permissions-miuiscanner.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuiscanner.xml
+    $(LOCAL_PATH)/configs/privapp-permissions-miuiscanner.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuiscanner.xml \
+    $(LOCAL_PATH)/configs/privapp-permissions-miuigallery.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuigallery.xml \
+    $(LOCAL_PATH)/configs/privapp-permissions-miuimediaeditor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuimediaeditor.xml
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -27,4 +29,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # Sysconfig
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/miuicamera-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-allowlist.xml \
-    $(LOCAL_PATH)/configs/miuiscanner-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuiscanner-hiddenapi-package-allowlist.xml
+    $(LOCAL_PATH)/configs/miuiscanner-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuiscanner-hiddenapi-package-allowlist.xml \
+$(LOCAL_PATH)/configs/miuigallery-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuigallery-hiddenapi-package-allowlist.xml \
+    $(LOCAL_PATH)/configs/miuimediaeditor-hiddenapi-package-allowlist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuimediaeditor-hiddenapi-package-allowlist.xml 
